@@ -1,0 +1,8 @@
+.App {
+    display: flex;
+    max-width: 43vw;
+}
+
+.card {
+    border: 2px solid white;
+}

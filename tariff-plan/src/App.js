@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Tarif from './components/tarif';
+import themeBlue from './components/themeBlue.css';
+import themeRed from './components/themeRed.css';
+import themeGreen from './components/themeGreen.css';
+import themeBlack from './components/themeBlack.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tarif theme={themeBlue} name="300" price="300" speed="10" />
+      <Tarif theme={themeGreen} name="450" price="450" speed="50" />
+      <Tarif theme={themeRed} name="550" price="550" speed="100" />
+      <Tarif theme={themeBlack} name="1000" price="1000" speed="200" />
     </div>
   );
 }
