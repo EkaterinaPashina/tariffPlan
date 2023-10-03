@@ -1,10 +1,10 @@
 
 import './App.css';
 import Tarif from './components/tarif';
-import themeBlue from './components/themeBlue.css';
-import themeRed from './components/themeRed.css';
-import themeGreen from './components/themeGreen.css';
-import themeBlack from './components/themeBlack.css';
+import themeBlue from './components/themeBlue.module.css';
+import themeRed from './components/themeRed.module.css';
+import themeGreen from './components/themeGreen.module.css';
+import themeBlack from './components/themeBlack.module.css';
 
 
 function App() {
