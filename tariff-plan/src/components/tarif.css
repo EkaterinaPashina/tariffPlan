@@ -1,6 +1,7 @@
 .App {
     display: flex;
     max-width: 43vw;
+    margin: 0 auto;
 }
 
 .card {
@@ -8,7 +9,7 @@
 }
 
 .active {
-    padding-bottom: 0.2rem;
-    box-shadow: -8px 4px 8px #6e6e6e;
+    box-shadow: 4px 2px 2px 1px rgb(105, 183, 154), -4px 2px 2px 1px rgb(105, 183, 154);
     z-index: 2;
+    width: 11.5rem;
 }
